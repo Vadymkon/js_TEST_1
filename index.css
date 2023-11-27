@@ -1,0 +1,26 @@
+.box {
+    width:100px;
+    height: 100px;
+    background-color: red;
+}
+.box.s1 {
+    background-color: blue;
+}
+.box.s2 {
+    background-color: violet;
+}
+.box.s3 {
+    background-color: darkblue;
+}
+.box.s4 {
+    background-color: saddlebrown;
+}
+
+
+#opa {
+    display: flex;
+    flex-direction: row;
+    max-width: 750px;
+    max-height: 750px;
+    flex-wrap: wrap;
+}
